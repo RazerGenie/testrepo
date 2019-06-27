@@ -1,0 +1,7 @@
+image: test
+sources:
+  - https://github.com/RazerGenie/testrepo
+tasks:
+  - setup: |
+      cd testrepo
+      cat README.md
