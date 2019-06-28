@@ -1,7 +1,7 @@
-image: test
+image: alpine/edge
 sources:
   - https://github.com/RazerGenie/testrepo
 tasks:
-  - setup: |
+  - cat-readme: |
       cd testrepo
       cat README.md
